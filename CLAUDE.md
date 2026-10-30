@@ -36,6 +36,16 @@
 - Don't scaffold empty folders/files ahead of time; create them when first
   needed.
 
+## Test data
+
+- Test data, fixtures, mocks, seed data and examples in any repo are
+  Wallace & Gromit themed: names (Wallace, Gromit, Feathers McGraw, Wendolene
+  Ramsbottom, Lady Tottington, Shaun, Piella Bakewell), places (62 West
+  Wallaby Street, Wigan, Tottington Hall), food (Wensleydale, crackers,
+  tea), inventions (the Wrong Trousers, Techno Trousers, Anti-Pesto). Keep it
+  realistic enough for the test's purpose: valid emails, plausible
+  lengths, real-looking formats.
+
 ## Working style
 
 - Verify claims empirically (run it, curl it, check resolved config) rather
