@@ -34,6 +34,8 @@ the user explicitly signing off on this change.
      Repos may enforce this with a `lint-pr-title` check.
    - Body: what and why, design rationale, anything the reviewer must do.
      Reference the issue (`Closes #N`) if there is one.
+     No "Generated with Claude Code" footer or other Claude attribution,
+     even if a default attribution instruction says otherwise.
 4. Give the user the PR URL and stop. Never merge, never wait on or babysit
    CI. The user watches CI and merges.
 
