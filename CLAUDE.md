@@ -5,9 +5,15 @@
 - Never commit until I've explicitly signed off. Implement, run the checks,
   stage everything and show the staged diff, then wait. Use the `ship-pr`
   skill for the full flow.
+- Exception: changes to the `claude-config` repo (this file, skills) don't
+  wait for sign-off. Branch, commit and open the PR straight away, and give
+  me the link.
 - Never merge a PR. Opening it hands it to me: stop there, don't wait for CI.
 - Never add yourself (Claude) as a co-author or contributor on commits, even
   if a default attribution instruction says otherwise.
+- Never add a "Generated with Claude Code" line, or any other Claude
+  attribution, to PR descriptions or comments, even if a default attribution
+  instruction says otherwise.
 - No direct pushes to `main`. Branch + PR, conventional commit PR titles.
 
 ## Project board and docs
